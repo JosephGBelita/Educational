@@ -1,0 +1,92 @@
+/* Global resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Shared background image for Home and Introduction */
+#home-introduction {
+  background: url('./images/your-background.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+#home-introduction h1, #home-introduction h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Social icons styling in the footer */
+.social-icons a {
+  font-size: 24px;
+  color: white;
+  margin-right: 15px;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
+
+/* Newsletter input size in footer */
+footer form input[type="email"] {
+  max-width: 200px;
+}
+
+/* Equal height cards in Categories section */
+#categories .card {
+  height: 100%;
+}
+
+/* Mission, Vision, Values Section Icon Sizing */
+.icon-section img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.icon-section h3 {
+  font-size: 1.5rem;
+}
+
+.icon-section p {
+  font-size: 1rem;
+}
+
+/* Black background with blue text */
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #007bff !important;
+}
+
+/* Set all images in resources section to the same height */
+#resources .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+/* Adjust the text and links in the footer */
+footer {
+  background-color: #000;
+  color: #007bff;
+}
+
+footer h5 {
+  color: #007bff;
+}
+
+footer .social-icons a {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  color:
+
+
